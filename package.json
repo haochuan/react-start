@@ -9,7 +9,8 @@
   "author": "haochuan",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "faker": "^2.1.2"
   },
   "devDependencies": {
     "browserify": "^9.0.8",

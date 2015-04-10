@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script> 
+</head>
+<body>
+    <button id='update'>Update data</button>
+    <script>
+        $('#update').click(function(e) {
+            $.post('/update');
+        });
+    </script>
+</body>
+</html>
